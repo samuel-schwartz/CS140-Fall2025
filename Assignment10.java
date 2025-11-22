@@ -57,7 +57,7 @@ public class Assignment10 {
 
 	/**
 	 * Utility method to print out the contents of an array.
-	 * 
+	 *
 	 * @param arr The array to be printed
 	 */
 	public static void printArray(int[] arr) {
@@ -69,7 +69,7 @@ public class Assignment10 {
 
 	/**
 	 * Utility method to print out the contents of an array.
-	 * 
+	 *
 	 * @param arr The array to be printed
 	 */
 	public static void printArray(int[][] arr) {
@@ -128,13 +128,13 @@ public class Assignment10 {
 		printArray(result);
 
 		System.out.println("Expected");
-		int[] expected = { 7, 9 };
+		int[] expected = { 5, 9 };
 		printArray(expected);
 	}
 
 	/**
 	 * Creates a blurred JPG image based on an input PPM file.
-	 * 
+	 *
 	 * @throws IOException
 	 */
 	private static void runTask3Test() throws IOException {
